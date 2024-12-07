@@ -1,0 +1,49 @@
+QPushButton {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+QPushButton#button {
+    background: #3498db;
+}
+
+QPushButton#button:hover {
+    background-color: #2980b9; 
+}
+
+QPushButton#button:pressed {
+    background-color: #1d6fa5;
+}
+
+QPushButton#upload {
+  background-color: #5dade2;  
+}
+
+QPushButton#upload:hover {
+  background-color: #3498db; 
+}
+
+QPushButton#upload:pressed {
+  background-color: #2e6da4; 
+}
+
+QListWidget {
+    border: 1px solid #CCCCCC;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+QLabel#pictureBox {
+    border: 2px solid #CCCCCC;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+QWidget {
+    background-color: #F0F0F0;
+}

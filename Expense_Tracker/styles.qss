@@ -1,0 +1,90 @@
+QWidget {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+QLabel {
+    color: #3498db;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QLineEdit, QDateEdit, QComboBox {
+    padding: 5px;
+    border: 2px solid #34495e;
+    border-radius: 5px;
+    background-color: #34495e;
+    color: #ecf0f1;
+    min-height: 18px;
+}
+
+QLineEdit:focus, QDateEdit:focus, QComboBox:focus {
+    border: 2px solid #3498db;
+}
+
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton#delete_btn {
+    background-color: #e74c3c;
+}
+
+QPushButton#delete_btn:hover {
+    background-color: #c0392b;
+}
+
+QTableWidget {
+    background-color: #34495e;
+    border: none;
+    border-radius: 5px;
+    gridline-color: #2c3e50;
+}
+
+QTableWidget::item {
+    padding: 5px;
+    color: #ecf0f1;
+}
+
+QTableWidget::item:selected {
+    background-color: #3498db;
+}
+
+QHeaderView::section {
+    background-color: #2c3e50;
+    color: #3498db;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background-color: #2c3e50;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #3498db;
+    border-radius: 5px;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+
+
